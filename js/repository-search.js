@@ -5,10 +5,21 @@ GitHub = function(){
 
 GitHub.prototype.getRepos = function(username, displayFunction) {
   $.get('https://api.github.com/users/' + username + '?access_token=' + apiKey).then(function(response){
-    console.log(response);
+    console.log(response)
+    displayFunction(username, response.login);
   }).fail(function(error){
-    console.log(error.responseJSON.message);
+    $('#showRepositories').text(error.responseJSON.message);
   });
+
+  $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey).then(function(response){
+    console.log(response);
+  $("#showRepositories").text("");
+  for(var index=0; index<response.length;index++){
+    $("#showRepositories").append('<li>' + response[index].name + '</li>')
+  }
+}).fail(function(error){
+  console.log(error.responseJSON.message);
+});
 };
 
 exports.gitHubModule = GitHub;
