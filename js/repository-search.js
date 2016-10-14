@@ -3,7 +3,7 @@ var apiKey = require('./../.env').apiKey;
 GitHub = function(){
 }
 
-GitHub.prototype.getRepo = function(username, displayFunction) {
+GitHub.prototype.getRepos = function(username, displayFunction) {
   $.get('https://api.github.com/users/' + username + '?access_token=' + apiKey).then(function(response){
     console.log(response);
   }).fail(function(error){
@@ -11,4 +11,4 @@ GitHub.prototype.getRepo = function(username, displayFunction) {
   });
 };
 
-exports.GitHubModule = GitHub;
+exports.gitHubModule = GitHub;

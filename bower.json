@@ -1,0 +1,22 @@
+{
+  "name": "git-hub-username-project",
+  "description": "user will be able to enter a git hub username and be returned a list of repositories\"",
+  "main": "gulpfile.js",
+  "authors": [
+    "zachary hedgepeth"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}
