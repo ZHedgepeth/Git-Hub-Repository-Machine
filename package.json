@@ -1,0 +1,24 @@
+{
+  "name": "git-hub-username-project",
+  "version": "1.0.0",
+  "description": "user will be able to enter a git hub username and be returned a list of repositories\"",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "zhedgepeth"
+  },
+  "author": "zachary hedgepeth",
+  "license": "ISC"
+}
