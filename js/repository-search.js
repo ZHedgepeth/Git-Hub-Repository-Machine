@@ -15,7 +15,7 @@ GitHub.prototype.getRepos = function(username, displayFunction) {
     console.log(response);
   $("#showRepositories").text("");
   for(var index=0; index<response.length;index++){
-    $("#showRepositories").append('<li>' + response[index].name + '</li>')
+    $("#showRepositories").append("<li class='repoName'> REPOSITORY: " + response[index].name + "<ul><li class='repoDate'> DATE CREATED: " + response[index].created_at +  "<li class='repoDesc'>" + response[index].description + "</li></ul>" + "</li>")
   }
 }).fail(function(error){
   console.log(error.responseJSON.message);
