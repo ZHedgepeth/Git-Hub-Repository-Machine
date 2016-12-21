@@ -17,3 +17,38 @@ _Program lists user's repo name, description and links_
 _Program returns error message if username does not exist_
   * example input: zhedgepeth
   * example output: Error: User not found
+
+
+## Setup/Installation Requirements
+
+  * _Computer_
+  * _Operating System_
+  * _Internet Connection_
+  * _Web browser_
+  * _Enter Git hub_
+  * _Navigate to GitHub-API repository_
+  * _Copy and paste url in top right_
+  * _Open terminal, type "git clone 'url'"_
+  * _Run npm install_
+  * _run gulp build --production on terminal_
+  * _run gulp serve on terminal_
+
+## Known Bugs
+
+  _In this version, there are no known bugs, but feel free to play around with the code and find out!_
+
+## Support and contact details
+
+  _Please feel free to contact me, the developer of this awesome application:
+
+  Zach Hedgepeth: zhedgepeth1124@gmail.com
+
+  ## Technologies Used
+
+  _{Atom, HTML, CSS, JavaScript, Gulp, Node.js, NPM,}_
+
+  ### License
+
+  *Epicodus License*
+
+  Copyright (c) 2016 **_Zach Hedgepeth_**
