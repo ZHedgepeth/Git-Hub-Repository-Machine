@@ -1,6 +1,6 @@
 # _GitHub-API user finding application_
 
-#### _A site that allows for the user to lookup Github accounts based on the username provided 10/14/2016_
+#### _A site that allows for the user to lookup Github accounts based on the username provided 12/21/2016_
 
 #### By _**Zach Hedgepeth**_
 
